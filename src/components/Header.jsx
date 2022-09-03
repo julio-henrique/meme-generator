@@ -1,8 +1,10 @@
+import troll from '../assets/troll-face.png'
+
 export function Header() {
     return (
         <header className="header">
             <img
-                src="./images/troll-face.png"
+                src={troll}
                 className="header--image"
             />
             <h2 className="header--title">Meme Generator</h2>
